@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js"
+        integrity="sha512-2rUSTSAeOO02jF6eBqENNqPs1EohenJ5j+1dgDPdXSLz9nOlrr8DJk4zW/lDy8rjhGCSonW3Gx812XJQIKZKJQ=="
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Socket IO Konuları</h1>
+
+    <div id="websocket-chat">
+        <h2>Sahan aydin chat </h2>
+
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+
+        </div>
+
+        <input type="text" placeholder="Kullanici ad" id="handle">
+        <input type="text" placeholder="Mesaj" id="message">
+        <button id="send"> Gönder</button>
+
+
+
+
+
+    </div>
+    <script src="./chat.js"></script>
+
+</body>
+
+</html>
